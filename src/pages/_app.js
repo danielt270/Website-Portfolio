@@ -1,8 +1,9 @@
 //THESE COMPONENTS ARE APPLIED UNIVERSALLY (this acts as a wrapper for all other pages)
-import NavBar from '@/components/NavBar';
+import NavBar from '@/components/NavBar'
 import '@/styles/globals.css'
 import { Montserrat } from 'next/font/google' //mont font pulled from google
 import Head from 'next/head'
+import Footer from '@/components/Footer'
 
 //this is where the mont font is styled/instantialized
 const montserrat = Montserrat({
