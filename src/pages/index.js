@@ -3,6 +3,7 @@ import Image from 'next/image'
 import Link from 'next/link'
 import Layout from '@/components/Layout'
 import AnimatedText from '@/components/AnimatedText'
+import HireMe from '@/components/HireMe'
 import profilePic from '../../public/images/profile/developer-pic-1.png'
 import { LinkArrow } from '@/components/Icons'
 
