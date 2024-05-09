@@ -5,6 +5,7 @@ import Layout from '@/components/Layout'
 import Image from 'next/image'
 import profilePic from '../../public/images/profile/my-pfp.png'
 import { useInView, useMotionValue, useSpring } from 'framer-motion'
+import Skills from '@/components/Skills'
 
 
 const AnimatedNumbers = ({value}) => {
@@ -79,7 +80,10 @@ const about = () => {
                             <h2 className='text-xl font-medium capitalize text-dark/75'>Years of experience</h2>
                         </div>
                     </div>
-                </div>  
+                </div> 
+                <div>
+                    <Skills />
+                </div> 
             </Layout>   
         </main>
     </>
