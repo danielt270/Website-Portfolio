@@ -95,3 +95,6 @@ const about = () => {
 }
 
 export default about
+/*
+ADD HEAD DESCRIPTION
+*/
