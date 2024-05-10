@@ -10,8 +10,7 @@ const Details = ({position, company, companyLink, duration, address, work}) => {
             <motion.div
             initial={{y:50}}
             whileInView={{y:0}}
-            transition={{duration:0.5, type:"spring"}}
-            >
+            transition={{duration:0.5, type:"spring"}}>
                 <h3 className='capitalize font-bold text-2xl'>{position}&nbsp;<a href={companyLink}
                 target="_blank"
                 className="text-primary capitalize"
