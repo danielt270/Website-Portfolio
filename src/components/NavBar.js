@@ -52,7 +52,7 @@ const NavBar = () => {
                 whileTap={{scale:0.9}}
                 ><LinkedInIcon /></motion.a>
 
-                <motion.a href="https://pinterest.com" target={"_blank"} 
+                <motion.a href="https://tryhackme.com/p/FaygoVibes" target={"_blank"} 
                 whileHover={{y:-2}}
                 className="w-6 ml-3"
                 whileTap={{scale:0.9}}
@@ -67,3 +67,7 @@ const NavBar = () => {
 }
 
 export default NavBar
+/*
+TODO:
+CHANGE PINTREST IMAGE TO THM
+*/
