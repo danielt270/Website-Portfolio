@@ -37,14 +37,14 @@ const Education = () => {
             <motion.div style={{scaleY: scrollYProgress}} className='absolute left-9 top-0 w-[4px] h-full bg-dark origin-top'/>
             <ul className='w-full flex flex-col items-start justify-between ml-4'>
                 <Details 
-                type="B.S. Cybersecurity and Information Technology"
+                type="High School Diploma"
                 duration="2022-Present"
-                place="Purdue University"
+                place="JSerra Catholic High School"
                 info="Relevant courses include..." />
                 <Details 
-                type="B.S. Cybersecurity and Information Technology"
-                duration="2022-Present"
-                place="Purdue University"
+                type="General Studies"
+                duration="2020-2022"
+                place="Saddleback College"
                 info="Relevant courses include..." />
                 <Details 
                 type="B.S. Cybersecurity and Information Technology"
@@ -53,11 +53,6 @@ const Education = () => {
                 info="Relevant courses include..." />
                 <Details 
                 type="B.S. Nuclear Engineering"
-                duration="2022-Present"
-                place="Purdue University"
-                info="Relevant courses include..." />
-                <Details 
-                type="B.S. ology"
                 duration="2022-Present"
                 place="Purdue University"
                 info="Relevant courses include..." />
