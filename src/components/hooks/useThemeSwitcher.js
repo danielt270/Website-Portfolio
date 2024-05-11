@@ -2,7 +2,7 @@ import React, { useEffect, useState } from 'react'
 
 
 const useThemeSwitcher = () => {
-    const preferDarkQuery = "(prefer-coor-scheme: dark)";
+    const preferDarkQuery = "(prefers-color-scheme: dark)";
     const [mode, setMode] = useState("");
     
     //CHECKS IF THERE IS ANY USER SETTINGS/CONFIGURATION THROUGH LOCAL STORAGE
@@ -24,6 +24,7 @@ const useThemeSwitcher = () => {
             else {
                 let check = mediaQuery.matches ? 'dark' : 'light';
                 setMode(check);
+                window.localStorage.setItem("theme", check);
 
                 if(check === 'dark'){
                     document.documentElement.classList.add('dark')
@@ -33,6 +34,9 @@ const useThemeSwitcher = () => {
                 }
             }
         }
+
+        handleChange();
+
         mediaQuery.addEventListener('change', handleChange)
 
         return () => mediaQuery.removeEventListener('change', handleChange)
