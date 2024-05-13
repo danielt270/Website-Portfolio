@@ -57,7 +57,7 @@ const NavBar = () => {
 
                 <motion.a href="https://tryhackme.com/p/FaygoVibes" target={"_blank"} 
                 whileHover={{y:-2}}
-                className="w-6 ml-3"
+                className="w-6 ml-3 bg-light rounded-full"
                 whileTap={{scale:0.9}}
                 ><PinterestIcon /></motion.a>
 
