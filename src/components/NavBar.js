@@ -34,18 +34,19 @@ const NavBar = () => {
     
     return (
         <header className='w-full px-32 py-8 font-medium flex items-center justify-between dark:text-light'>
-        <button className='flex-col justify-center items-cente hidden lg:flex' onClick={handleClick}>
-            <span className={`bg-dark dark:bg-light transition-all duration-300 ease-out block h-0.5 w-6 rounded-sm ${isOpen ? 'rotate-45 translate-y-1' : '-translate-y-0.5'}`}></span>
-            <span className={`bg-dark dark:bg-light transition-all duration-300 ease-out block h-0.5 w-6 rounded-sm my-0.5 ${isOpen ? 'opacity-0' : 'opacity-100'}`}></span>
-            <span className={`bg-dark dark:bg-light transition-all duration-300 ease-out block h-0.5 w-6 rounded-sm ${isOpen ? '-rotate-45 -translate-y-1' : 'translate-y-0.5'}`}></span>
-        </button>    
-            <nav>
-                <CustomLink href="/" title="Home" className='mr-4' />
-                <CustomLink href="/about" title="About" className='mx-4' />
-                <CustomLink href="/projects" title="Projects" className='mx-4' />
-                <CustomLink href="/articles" title="Articles" className='ml-4' />
-            </nav>
-
+            <button className='flex-col justify-center items-cente hidden lg:flex' onClick={handleClick}>
+                <span className={`bg-dark dark:bg-light transition-all duration-300 ease-out block h-0.5 w-6 rounded-sm ${isOpen ? 'rotate-45 translate-y-1' : '-translate-y-0.5'}`}></span>
+                <span className={`bg-dark dark:bg-light transition-all duration-300 ease-out block h-0.5 w-6 rounded-sm my-0.5 ${isOpen ? 'opacity-0' : 'opacity-100'}`}></span>
+                <span className={`bg-dark dark:bg-light transition-all duration-300 ease-out block h-0.5 w-6 rounded-sm ${isOpen ? '-rotate-45 -translate-y-1' : 'translate-y-0.5'}`}></span>
+            </button>    
+            <div className='w-full flex justify-between items-center lg:hidden'>
+                <nav>
+                    <CustomLink href="/" title="Home" className='mr-4' />
+                    <CustomLink href="/about" title="About" className='mx-4' />
+                    <CustomLink href="/projects" title="Projects" className='mx-4' />
+                    <CustomLink href="/articles" title="Articles" className='ml-4' />
+                </nav>
+            </div>
             <nav className='flex items-center justify-center flex-wrap'>
                 <motion.a href="https://twitter.com" target={"_blank"} 
                 whileHover={{y:-2}}
