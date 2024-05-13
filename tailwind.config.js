@@ -23,6 +23,10 @@ module.exports = {
         circularDark: 'repeating-radial-gradient(rgba(255,255,255,0.5) 2px,#1b1b1b 8px,#1b1b1b 100px);',
       }
     },
+    screens: {
+      "2xl": {max:"1535px"},
+      // => @media(max-width: 1535px)
+    }
   },
   plugins: [],
 }
