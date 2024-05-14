@@ -33,11 +33,11 @@ const CustomMobileLink = ({href, title, className="", toggle}) => {
     }
 
     return(
-        <button href={href} className={`${className} relative group`} onClick={handleClick}>
+        <button href={href} className={`${className} relative group text-light dark:text-dark my-2`} onClick={handleClick}>
             {title}
             <span className={`
-            h-[1px] inline-block bg-dark
-            absolute left-0 -bottom-0.5 dark:bg-light
+            h-[1px] inline-block bg-light
+            absolute left-0 -bottom-0.5 dark:bg-dark
             group-hover:w-full transition-[width] ease duration-300 
             ${router.asPath === href ? 'w-full' : 'w-0'}
             `}>&nbsp;</span>
@@ -110,13 +110,13 @@ const NavBar = () => {
                 isOpen ? 
                 <div className='min-w-[70vw] z-30 bg-dark/90 dark:bg-light/75 rounded-lg backdrop-blur-md py-32 flex flex-col justify-between items-center fixed top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2'>
                     <nav className='flex items-center flex-col justify-center'>
-                        <CustomMobileLink href="/" title="Home" className='mr-4' toggle={handleClick} />
-                        <CustomMobileLink href="/about" title="About" className='mx-4' toggle={handleClick} />
-                        <CustomMobileLink href="/projects" title="Projects" className='mx-4' toggle={handleClick} />
-                        <CustomMobileLink href="/articles" title="Articles" className='ml-4' toggle={handleClick} />
+                        <CustomMobileLink href="/" title="Home" className='' toggle={handleClick} />
+                        <CustomMobileLink href="/about" title="About" className='' toggle={handleClick} />
+                        <CustomMobileLink href="/projects" title="Projects" className='' toggle={handleClick} />
+                        <CustomMobileLink href="/articles" title="Articles" className='' toggle={handleClick} />
                     </nav>
                 
-                    <nav className='flex items-center justify-center flex-wrap'>
+                    <nav className='flex items-center justify-center flex-wrap mt-2'>
                         <motion.a href="https://twitter.com" target={"_blank"} 
                         whileHover={{y:-2}}
                         className="w-6 mr-3"
@@ -125,7 +125,7 @@ const NavBar = () => {
 
                         <motion.a href="https://github.com/danielt270" target={"_blank"} 
                         whileHover={{y:-2}}
-                        className="w-6 mx-3"
+                        className="w-6 mx-3 bg-light dark:bg-dark rounded-full"
                         whileTap={{scale:0.9}}
                         ><GithubIcon /></motion.a>
 
