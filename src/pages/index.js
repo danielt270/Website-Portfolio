@@ -27,9 +27,9 @@ export default function Home() {
               <AnimatedText text="Turning Vision Into Reality With Code And Design." className="!text-6xl !text-left
                xl:!text-5xl lg:!text-center lg:!text-6xl md:!text-5xl sm:!text-3xl" 
               />
-              <p className='my-4 text-base font-medium'>
-              As a skilled full-stack developer, I am dedicated to turning ideas into innovative web applications. 
-              Explore my latest projects and articles, showcasing my expertise in React.js and web development.
+              <p className='my-4 text-base font-medium md:text-sm sm:text-xs'>
+                As a skilled full-stack developer, I am dedicated to turning ideas into innovative web applications. 
+                Explore my latest projects and articles, showcasing my expertise in React.js and web development.
               </p>
               <div className='flex items-center self-start mt-2 lg:self-center'>
                 <Link href="/Daniel Thomas Resume 050624.pdf" target={"_blank"}
