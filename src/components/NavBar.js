@@ -119,25 +119,25 @@ const NavBar = () => {
                     <nav className='flex items-center justify-center flex-wrap mt-2'>
                         <motion.a href="https://twitter.com" target={"_blank"} 
                         whileHover={{y:-2}}
-                        className="w-6 mr-3"
+                        className="w-6 mr-3 sm:mx-1"
                         whileTap={{scale:0.9}}
                         ><TwitterIcon /></motion.a>
 
                         <motion.a href="https://github.com/danielt270" target={"_blank"} 
                         whileHover={{y:-2}}
-                        className="w-6 mx-3 bg-light dark:bg-dark rounded-full"
+                        className="w-6 mx-3 bg-light dark:bg-dark rounded-full sm:mx-1"
                         whileTap={{scale:0.9}}
                         ><GithubIcon /></motion.a>
 
                         <motion.a href="https://www.linkedin.com/in/daniel-thomas-97b481214/" target={"_blank"} 
                         whileHover={{y:-2}}
-                        className="w-6 mx-3"
+                        className="w-6 mx-3 sm:mx-1"
                         whileTap={{scale:0.9}}
                         ><LinkedInIcon /></motion.a>
 
                         <motion.a href="https://tryhackme.com/p/FaygoVibes" target={"_blank"} 
                         whileHover={{y:-2}}
-                        className="w-6 ml-3 bg-light rounded-full"
+                        className="w-6 ml-3 bg-light rounded-full sm:mx-1"
                         whileTap={{scale:0.9}}
                         ><PinterestIcon /></motion.a>
 
