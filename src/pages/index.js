@@ -46,7 +46,7 @@ export default function Home() {
           </div>
         </Layout>
         <HireMe />
-        <div className='absolute right-8 bottom-5 inline-block w-24'>
+        <div className='absolute right-8 bottom-5 inline-block w-24 md:hidden'>
           <Image src={lightBulb} alt="DT" className='w-full h-auto' />
         </div>
       </main>
