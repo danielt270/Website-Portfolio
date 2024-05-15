@@ -45,19 +45,15 @@ const about = () => {
                 <AnimatedText text="Passion Fuels Purpose!" className='mb-16 lg:!text-7xl sm:!text-6xl xs:!text-4xl sm:mb-8' />
                 <div className='grid w-full grid-cols-8 gap-16 sm:gap-8'>
                     <div className='col-span-3 flex flex-col items-start justify-start xl:col-span-4 md:order-2 md:col-span-8'>
-                        <h2 className='mb-4 text-lg font-bold uppercase text-dark/75 dark:text-light/75 '>About Me</h2>
-                        <p className='font-medium'>
-                        Hello! I’m Daniel Thomas, a Purdue University student majoring in Cybersecurity and Nuclear Engineering. My academic journey is fueled by a fascination with the invisible forces that shape our world and the digital systems that drive it.
-
-
-
-
+                        <h2 className='mb-4 text-2xl font-bold uppercase text-dark/75 dark:text-light/75 '>About Me</h2>
+                        <p className='font-medium text-xl'>
+                            Hello! I'm Daniel Thomas, a Purdue University student majoring in Cybersecurity and Nuclear Engineering. My academic journey is fueled by a fascination with the invisible forces that shape our world and the digital systems that drive it.
                         </p>            
-                        <p className='my-4 font-medium'>
-                        Both of my majors require visualizing complex concepts to solve real-world problems. In Cybersecurity, I protect the architecture of digital systems, while in Nuclear Engineering, I harness atomic energy safely and efficiently. My participation in Purdue's b01lers Capture The Flag team, alongside practical experiences as an IT Junior Associate and engineering intern, has sharpened my skills in securing and managing sophisticated systems.
+                        <p className='my-4 font-medium text-xl'>
+                            Both of my majors require visualizing complex concepts to solve real-world problems. In Cybersecurity, I protect the architecture of digital systems, while in Nuclear Engineering, I harness atomic energy safely and efficiently. My participation in Purdue's b01lers Capture The Flag team, alongside practical experiences as an IT Junior Associate and engineering intern, has sharpened my skills in securing and managing sophisticated systems.
                         </p>
-                        <p className='font-medium'>
-                        Certified in CompTIA Security+ and trained at UC Irvine’s Cybersecurity Bootcamp, I am equipped with robust knowledge in security control frameworks and response strategies. I’m passionate about merging my dual interests to innovate in both digital security and nuclear technology.
+                        <p className='font-medium text-xl'>
+                            Certified in CompTIA Security+ and trained at UC Irvine’s Cybersecurity Bootcamp, I am equipped with robust knowledge in security control frameworks and response strategies. I’m passionate about merging my dual interests to innovate in both digital security and nuclear technology.
                         </p>
                     </div>
                     <div className='col-span-3 relative h-max rounded-2xl border-2 border-solid 
