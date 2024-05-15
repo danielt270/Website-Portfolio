@@ -56,7 +56,7 @@ const Project = ({title, type, img, link, github}) => {
                         transition={{duration:0.2}} />
             </Link>
             <div className='w-full flex flex-col items-start justify-between mt-4'>
-                <span className='text-primary font-medium text-xl dark:text- lg:text-lg md:text-base'>{type}</span>
+                <span className='text-primary font-medium text-xl dark:text- lg:text-lg md:text-base dark:text-primaryDark'>{type}</span>
                 <Link href={link} target='_blank' className='hover:underline underline-offset-2'>
                     <h2 className='my-2 w-full text-left text-3xl font-bold lg:text-2xl'>{title}</h2>
                 </Link>
