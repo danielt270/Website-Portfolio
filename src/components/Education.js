@@ -55,7 +55,7 @@ const Education = () => {
                 info="Relevant courses include..." />
                 <Details 
                 type="High School Diploma"
-                duration="2022-Present"
+                duration="2015-2019"
                 place="JSerra Catholic High School"
                 info="Relevant courses include..." />
             </ul>
