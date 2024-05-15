@@ -39,14 +39,9 @@ const Education = () => {
             />
             <ul className='w-full flex flex-col items-start justify-between ml-4 xs:ml-2'>
                 <Details 
-                type="High School Diploma"
+                type="B.S. Nuclear Engineering"
                 duration="2022-Present"
-                place="JSerra Catholic High School"
-                info="Relevant courses include..." />
-                <Details 
-                type="General Studies"
-                duration="2020-2022"
-                place="Saddleback College"
+                place="Purdue University"
                 info="Relevant courses include..." />
                 <Details 
                 type="B.S. Cybersecurity and Information Technology"
@@ -54,9 +49,14 @@ const Education = () => {
                 place="Purdue University"
                 info="Relevant courses include..." />
                 <Details 
-                type="B.S. Nuclear Engineering"
+                type="General Studies"
+                duration="2020-2022"
+                place="Saddleback College"
+                info="Relevant courses include..." />
+                <Details 
+                type="High School Diploma"
                 duration="2022-Present"
-                place="Purdue University"
+                place="JSerra Catholic High School"
                 info="Relevant courses include..." />
             </ul>
         </div>
