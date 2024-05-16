@@ -26,12 +26,12 @@ export default function Home() {
               sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 50vw"/>
             </div>
             <div className='w-1/2 flex flex-col items-center self-center lg:w-full lg:text-center'>
-              <AnimatedText text="Turning Vision Into Reality With Code And Design." className="!text-6xl !text-left
+              <AnimatedText text="Engineering Security for a Safer World." className="!text-6xl !text-left
                xl:!text-5xl lg:!text-center lg:!text-6xl md:!text-5xl sm:!text-3xl" 
               />
               <p className='my-4 text-base font-medium md:text-sm sm:text-xs'>
-                As a skilled full-stack developer, I am dedicated to turning ideas into innovative web applications. 
-                Explore my latest projects and articles, showcasing my expertise in React.js and web development.
+                As a cybersecurity and nuclear engineering student, my mission is to ensure the safety and security 
+                of our digital and physical worlds. Dive into my projects and articles that reflect my dedication to creating secure, reliable, and innovative solutions.
               </p>
               <div className='flex items-center self-start mt-2 lg:self-center'>
                 <Link href="/Daniel Thomas Resume 050624.pdf" target={"_blank"}
