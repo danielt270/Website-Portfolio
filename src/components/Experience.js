@@ -47,17 +47,16 @@ const Experience = () => {
             />
             <ul className='w-full flex flex-col items-start justify-between ml-4 xs:ml-2'>
                 <Details position="IT Intern" company="AMPAM Parks Mechanical" duration="Jun 2023 - Aug 2023" address="17036 Avalon Blvd, Carson, CA 90746"
-                companyLink="https://www.ampam.com" work="Assisted in assuring integrity of IT systems including computer infrastructure and software, 
-                servers, firewalls, storage, operating system and virtualization"/>
-                <Details position="IT Intern" company="AMPAM Parks Mechanical" duration="Jun 2023 - Aug 2023" address="17036 Avalon Blvd, Carson, CA 90746"
-                companyLink="https://www.ampam.com" work="Assisted in assuring integrity of IT systems including computer infrastructure and software, 
-                servers, firewalls, storage, operating system and virtualization"/>
-                <Details position="IT Intern" company="AMPAM Parks Mechanical" duration="Jun 2023 - Aug 2023" address="17036 Avalon Blvd, Carson, CA 90746"
-                companyLink="https://www.ampam.com" work="Assisted in assuring integrity of IT systems including computer infrastructure and software, 
-                servers, firewalls, storage, operating system and virtualization"/>
-                <Details position="IT Intern" company="AMPAM Parks Mechanical" duration="Jun 2023 - Aug 2023" address="17036 Avalon Blvd, Carson, CA 90746"
-                companyLink="https://www.ampam.com" work="Assisted in assuring integrity of IT systems including computer infrastructure and software, 
-                servers, firewalls, storage, operating system and virtualization"/>
+                 companyLink="https://www.ampam.com" work="Assisted in assuring integrity of IT systems including computer infrastructure and software, 
+                 servers, firewalls, storage, operating system and virtualization"
+                />
+                <Details position="IT Intern" company="AMPAM Parks Mechanical" duration="Jun 2022 - Aug 2022" address="17036 Avalon Blvd, Carson, CA 90746"
+                 companyLink="https://www.ampam.com" work="Assisted in assuring integrity of IT systems including computer infrastructure and software, 
+                 servers, firewalls, storage, operating system and virtualization"
+                />
+                <Details position="Engineer Intern" company="Saratech" duration="Jun 2017 - Mar 2018" address="26054 Acero, Mission Viejo, CA 92691"
+                 companyLink="https://saratech.com" work="Supported engineers and college intern in designing parts using firm’s proprietary CAD software"
+                />
             </ul>
         </div>
     </div>
