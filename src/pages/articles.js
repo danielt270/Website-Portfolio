@@ -83,7 +83,7 @@ const articles = () => {
     <>
         <Head>
             <title>DT | Articles Page</title>
-            <meta name="description" content="description goes here..." />
+            <meta name="description" content="Explore a curated collection of articles handpicked by me, covering topics such as cybersecurity, technology trends, and personal development" />
         </Head>
         <TransitionEffect />
         <main className='w-full mb-16 flex flex-col items-center justify-center ovrflow-hidden dark:text-light'>

@@ -76,7 +76,7 @@ const projects = () => {
     <>
         <Head>
             <title>DT | Projects Page</title>
-            <meta name="description" content="description goes here..." />
+            <meta name="description" content="Explore my portfolio of projects, including cybersecurity tools, reverse engineering challenges, and software development initiatives" />
         </Head>
         <TransitionEffect />
         <main className='w-full mb-16 flex flex-col items-center justify-center dark:text-light'>
