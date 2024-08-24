@@ -5,7 +5,12 @@ import Image from 'next/image'
 import Layout from '@/components/Layout'
 import Link from 'next/link'
 import { GithubIcon } from '@/components/Icons'
-import project1 from '../../public/images/projects/crypto-screener-cover-image.jpg'
+import project1 from '../../public/images/projects/ELK.jpg'
+import project2 from '../../public/images/projects/Password.jpg'
+import project3 from '../../public/images/projects/SSH.jpg'
+import project4 from '../../public/images/projects/crypto-screener-cover-image.jpg'
+import project5 from '../../public/images/projects/crypto-screener-cover-image.jpg'
+import project6 from '../../public/images/projects/crypto-screener-cover-image.jpg'
 import { motion } from 'framer-motion'
 import TransitionEffect from '@/components/TransitionEffect'
 
@@ -47,14 +52,17 @@ const FeaturedProject = ({type, title, summary, img, link, github}) => {
 const Project = ({title, type, img, link, github}) => {
     return (
         <article className='w-full flex flex-col items-center justify-center rounded-2xl border border-solic border-dark 
-        bg-light p-6 relative dark:bg-dark dark:border-light xs:p-4'>
+         bg-light p-6 relative dark:bg-dark dark:border-light xs:p-4'
+        >
             <div className='absolute top-0 -right-3 -z-10 w-[101%] h-[103%] rounded-[2rem] bg-dark rounded-br-3xl dark:bg-light
              md:-right-2 md:w-[101%] xs:h-[102%] xs:w-full xs:rounded-[1.5rem]' 
             />
             <Link href={link} target='_blank' className='w-full cursor-pointer overflow-hidden rounded-lg'>
-                <FramerImage src={img} alt={img} className='w-full h-auto'
-                        whileHover={{scale:1.05}}
-                        transition={{duration:0.2}} />
+                <FramerImage src={img} alt={img} 
+                 className='w-full h-auto'
+                 whileHover={{scale:1.05}}
+                 transition={{duration:0.2}} 
+                />
             </Link>
             <div className='w-full flex flex-col items-start justify-between mt-4'>
                 <span className='text-primary font-medium text-xl dark:text- lg:text-lg md:text-base dark:text-primaryDark'>{type}</span>
@@ -85,7 +93,7 @@ const projects = () => {
                 <div className='grid grid-cols-12 gap-24 gap-y-32 xl:gap-x-16 lg:gap-x-8 md:gap-y-24 sm:gap-x-0'>
                     <div className='col-span-12'>
                         <FeaturedProject 
-                        title={"Crypto Screener Application"}
+                        title={"ELK Deployment Stack"}
                         img={project1}
                         summary={'A feature-rich Crypto Screener App using React, Tailwind CSS, Context API, React Router and Recharts.\
                             It shows detail regarding almost all the cryptocurrency. You can easily convert the price in your\
@@ -97,8 +105,8 @@ const projects = () => {
                     </div>
                     <div className='col-span-6 sm:col-span-12'>
                         <Project 
-                        title={"Crypto Screener Application"}
-                        img={project1}
+                        title={"Password Cracker"}
+                        img={project2}
                         summary={'A feature-rich Crypto Screener App using React, Tailwind CSS, Context API, React Router and Recharts.\
                             It shows detail regarding almost all the cryptocurrency. You can easily convert the price in your\
                             local currency.'}
@@ -109,8 +117,8 @@ const projects = () => {
                     </div>
                     <div className='col-span-6 sm:col-span-12'>
                         <Project 
-                        title={"Crypto Screener Application"}
-                        img={project1}
+                        title={"SSH PK Brute Forcer"}
+                        img={project3}
                         summary={'A feature-rich Crypto Screener App using React, Tailwind CSS, Context API, React Router and Recharts.\
                             It shows detail regarding almost all the cryptocurrency. You can easily convert the price in your\
                             local currency.'}
@@ -122,7 +130,7 @@ const projects = () => {
                     <div className='col-span-12'>
                         <FeaturedProject 
                         title={"Crypto Screener Application"}
-                        img={project1}
+                        img={project4}
                         summary={'A feature-rich Crypto Screener App using React, Tailwind CSS, Context API, React Router and Recharts.\
                             It shows detail regarding almost all the cryptocurrency. You can easily convert the price in your\
                             local currency.'}
@@ -134,7 +142,7 @@ const projects = () => {
                     <div className='col-span-6 sm:col-span-12'>
                         <Project 
                         title={"Crypto Screener Application"}
-                        img={project1}
+                        img={project5}
                         summary={'A feature-rich Crypto Screener App using React, Tailwind CSS, Context API, React Router and Recharts.\
                             It shows detail regarding almost all the cryptocurrency. You can easily convert the price in your\
                             local currency.'}
@@ -146,7 +154,7 @@ const projects = () => {
                     <div className='col-span-6 sm:col-span-12'>
                         <Project 
                         title={"Crypto Screener Application"}
-                        img={project1}
+                        img={project6}
                         summary={'A feature-rich Crypto Screener App using React, Tailwind CSS, Context API, React Router and Recharts.\
                             It shows detail regarding almost all the cryptocurrency. You can easily convert the price in your\
                             local currency.'}
